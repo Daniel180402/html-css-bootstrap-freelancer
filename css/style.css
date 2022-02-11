@@ -3,8 +3,17 @@
     background-color: aqua;
 }
 
-.box-riempitore{
+.box-riempitore-img{
     background-color: magenta;
     height: 150px;
     border: 1px solid white;
+}
+
+.my-box-message{
+    height: 100px;
+}
+
+.box-riempitore{
+    background-color: blueviolet;
+    height: 100px;
 }
