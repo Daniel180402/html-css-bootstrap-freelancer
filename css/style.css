@@ -1,3 +1,10 @@
-.my-header{
-    min-height: 80px;
+.my-jumbo{
+    min-height: 400px;
+    background-color: aqua;
+}
+
+.box-riempitore{
+    background-color: magenta;
+    height: 150px;
+    border: 1px solid white;
 }
