@@ -1,4 +1,4 @@
-section#jumbotron{
+section#jumbotron, .my-jumbobox{
     background-color: #1abc9c;
 }
 
@@ -6,7 +6,18 @@ section#jumbotron{
     height: 400px;
     width: 600px;
     margin: 0 auto;
-    background-color: aqua;
+    align-items: center;
+}
+
+div.my-jumbobox img{
+    width: 25%;
+}
+
+div.my-jumbobox .my-white-line{
+    width: 100px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: white;
 }
 
 .box-riempitore-img{
