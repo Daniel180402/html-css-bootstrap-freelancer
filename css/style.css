@@ -1,5 +1,11 @@
-.my-jumbo{
-    min-height: 400px;
+section#jumbotron{
+    background-color: #1abc9c;
+}
+
+.my-jumbobox{
+    height: 400px;
+    width: 600px;
+    margin: 0 auto;
     background-color: aqua;
 }
 
