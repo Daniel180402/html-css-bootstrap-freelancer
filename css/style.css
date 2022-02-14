@@ -1,29 +1,31 @@
-section#jumbotron, .my-jumbobox{
+section#jumbotron, .my-jumbobox, #about-us, .my-about{
     background-color: #1abc9c;
 }
 
-.my-jumbobox{
-    height: 400px;
-    width: 600px;
+.my-jumbobox, .my-about{
+    height: 100%;
+    width: 100%;
     margin: 0 auto;
     align-items: center;
 }
 
 div.my-jumbobox img{
-    width: 25%;
+    width: 20%;
 }
 
-div.my-jumbobox .my-white-line{
+.my-line{
     width: 100px;
     height: 3px;
     border-radius: 2px;
-    background-color: white;
 }
 
 .box-riempitore-img{
-    background-color: magenta;
-    height: 150px;
-    border: 1px solid white;
+    object-fit: contain;
+}
+
+.box-riempitore-img img{
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .my-box-message{
